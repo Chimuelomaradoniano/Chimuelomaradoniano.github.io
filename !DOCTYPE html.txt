@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+  html{
+    scroll-behavior: smooth;
+  }
+body{
+  margin: 0;
+  background-color: blue;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .encabezado-img{
+background-image: url("Logo-y-Nombre-Biogarden.png");
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+position: relative;
+z-index: 1;
+
+
+}
+.texto-inicio{
+  background-color: rgba(0,0,0,0.4);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+.texto-inicio h1{
+  font-size: 4rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+.texto-inicio p{
+font-size: 1.5rem;
+line-height: 1.6;
+}
+.contenedor-principal-azul {
+  background-color: rgb(0, 0, 99); 
+  position: relative;
+  z-index: 5;
+  box-shadow: 0px -20px 50px rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+.contenido-pagina {
+  padding: 50px;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+nav{
+position: fixed;
+top: 0;
+width: 100%;
+text-align: center;
+padding: 15px 0;
+z-index: 100;
+background-color: rgb(0, 0, 100);
+box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+nav a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+padding: 10px 15px;
+border-radius: 8px;
+transition: all 1.2 ease-in-out !important;
+}
+nav a:active{
+  color: #00ff88 !important;
+  text-shadow: 0px 0px 15px #00ff88, 0px 0px 30px #00a86b !important;
+  transition: 0s !important;
+}
+nav a:focus{
+  color: #00ff88 !important;
+  text-shadow: 0px 0px 20px #00ff88 !important;
+  outline: none;
+}
+nav a:hover{
+  background-color: blue;
+  color: white;
+}
+h2{
+text-align: center;
+}
+table{
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 80%;
+}
+table td{
+  padding: 20px;
+}
+table img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+footer{
+  background-color: rgb(0, 0, 77);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+.formulario-contacto {
+  background-color: #e0f7fa;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  margin: 20px auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+.formulario-contacto label {
+color: #556b2f;
+font-weight: bold;
+display: block;
+margin-bottom: 5px;
+}
+.formulario-contacto input, .formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn-enviar {
+  background-color: #006400;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn-enviar:hover {
+  background-color: #004d00;
+}
+table img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+table img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#inicio">INICIO</a>
+    <a href="#nosotros">NOSOTROS</a>
+    <a href="#productos">PRODUCTOS</a>
+    <a href="#contactenos">CONTACTANOS</a>
+  </nav>
+</header>
+</div>
+
+<div class="contenedor-principal-azul">
+  <div id="inicio" class="encabezado-img">
+  <div class="texto-inicio">
+    <h1>INICIO</h1>
+    <p>Biogarden es la combinación de un zoológico y una reserva natural, nuestro objetivo es el cuidado y la rehabilitación animal, así mismo, buscamos proteger no solo a los animales sino el planeta en el que habitan.</p>
+  </div>
+</div>
+
+<div class="contenedor-principal-azul">
+
+  <div id="nosotros" class="contenido-pagina">
+    <div class="texto-inicio" style="text-align: justify;"> 
+      <h2>NOSOTROS</h2>
+      <p><strong>Misión</strong></p>
+      <p>Ofrecer a los visitantes de Biogarden una experiencia renovadora donde puedan conectarse con la naturaleza y las especies amenazadas adquiriendo conocimientos sobre la conservación de la fauna silvestre y no silvestre del mundo.</p>
+      <p>Nuestro compromiso se basa en tres pilares fundamentales:</p>
+      <ul style="text-align: left; display: inline-block; max-width: 90%;">
+        <li><strong>Educación:</strong> Crear conciencia en nuestros visitantes sobre la necesidad de mantener un equilibrio con el medio ambiente.</li>
+        <li><strong>Ética:</strong>Fomentando el amor y el respeto profundo por los animales y su hábitat natural.</li>
+        <li><strong>Acción:</strong>Promoviendo un compromiso activo y real con la conservación del planeta a través de nuestras instalaciones.</li>
+      </ul>
+      <p><strong>Visión</strong></p>
+      <p>Ser una empresa que se destaque por la conservación y rehabilitación de la fauna y flora, soportados en estudios científicos y planes de educación ambiental de alto impacto.</p>
+      <p>Para el año 2040, aspiramos a ser referentes internacionales en:</p>
+      <ul style="text-align: left; display: inline-block; max-width: 90%;">
+        <li><strong>Bienestar animal</strong>Liderar procesos de investigación avanzada para la recuperación de especies en peligro.</li>
+        <li><strong>Talento Humano</strong>Contar con un equipo de trabajo especializado, entrenado y en continua formación académica.</li>
+        <li><strong>Sostenibilidad</strong>Implementar tecnologías limpias que garanticen que nuestra reserva sea un modelo de armonía ecológica.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="productos" class="contenido-pagina">
+    <div class="texto-inicio"> <h2>PRODUCTOS O SERVICIOS</h2>
+      <h2>Entretenimiento</h2>
+      <table>
+        <tr>
+          <td><img src="mariposario.jpg" alt="mariposario"><p><strong>mariposario</strong></p></td>
+          <td><img src="Osos.jpg" alt="Osos"><p><strong>Recinto de Osos</strong></p></td>
+        </tr>
+        <tr>
+          <td><img src="Jaguar.jpg" alt="Jaguar"><p><strong>Recinto de Jaguares</strong></p></td>
+          <td><img src="Acuario.jpg" alt="Acuario"><p><strong>Acuario</strong></p></td>
+        </tr>
+      </table>
+    </div> </div>
+
+  <div id="contactenos" class="contenido-pagina">
+    <div class="texto-inicio"> 
+      <h2>CONTACTENOS</h2>
+      <p><strong>Teléfono:</strong> 316 3737155</p>
+      <div class="formulario-contacto">
+
+<form action="https://formsubmit.co/jmlm0812@outlook.com" method="POST">
+
+  <label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre">
+
+<label for="email">Correo electronico:</label>
+<input type="text" id="email" name="email">
+
+<label for="asunto">Asunto:</label>
+<input type="text" id="asunto" name="asunto">
+
+<label for="mensaje">Mensaje:</label>
+<textarea name="mensaje" id="mensaje"></textarea>
+
+<button type="submit" class="btn-enviar"> Enviar datos</button>
+
+<input type="hidden" name="_next" value="file:///C:/Colegio%20virtual%20siglo%20xxi/Jos%C3%A9%20Grado%2011%C2%B0/Inform%C3%A1tica/M%C3%B3dulo%204/Biogarden%20Web/Biogarden%20Web.html">
+<input type="hidden" name="_captcha" value="false">
+</form>
+
+      </div>
+    </div> </div>
+</div>
+<footer>
+  <p>&copy; 2026 Biogarden - Todos los derechos reservados</p>
+  <p>José Manuel López Muñoz</p>
+</footer>
+</body>
+
+</html>
